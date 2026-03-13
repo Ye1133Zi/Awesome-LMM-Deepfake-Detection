@@ -84,8 +84,7 @@ This repository is maintained based on the survey paper:
   <summary>2025</summary>
 
 * [CVPR 2025] Rethinking Vision-Language Model in Face Forensics: Multi-modal Interpretable Forged Face Detector [Paper](https://arxiv.org/abs/2501.00000) [Code](https://github.com/CHELSEA234/M2F2_Det)
-  > 引入通用伪造提示和层级伪造标记，整合图像特征和文本生成，提升伪造检测的准确性和解释能力.
-
+  > 引入通用伪造提示和层级伪造标记，利用LLaVA（lora微调）+CLIP+deepfake model的方式，提升伪造检测的准确性和解释能力.
 </details>
 
 <details open>
