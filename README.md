@@ -38,13 +38,13 @@ This repository is maintained based on the survey paper:
 ## 1. Multimodal Detection (多模态伪造检测)
 > While examining the information of each modality individually, cross-modal analysis and semantic detection are also performed. It mainly involves many scenarios such as news detection, social media detection, and meeting audio and video detection.
 
-<details open>
+<details >
   <summary>2026</summary>
   
   *(Waiting for new breakthroughs...)*
 </details>
 
-<details open>
+<details >
   <summary>2025</summary>
 
 * [AAAI 2025] Each Fake News is Fake in Its Own Way: An Attribution Multi-Granularity Benchmark for Multimodal Fake News Detection [Paper](https://arxiv.org/abs/2501.00000) [Code](https://github.com/mazihan880/AMG-An-Attributing-Multi-modal-Fake-News-Dataset)
@@ -52,7 +52,7 @@ This repository is maintained based on the survey paper:
 
 </details>
 
-<details open>
+<details >
   <summary>2024</summary>
 
 * [ACM MM 2024] FKA-Owl: Advancing Multimodal Fake News Detection through Knowledge-Augmented LVLMs [Paper](https://arxiv.org/abs/2400.00000)
@@ -63,7 +63,7 @@ This repository is maintained based on the survey paper:
 
 </details>
 
-<details open>
+<details >
   <summary>2023</summary>
 
 * [CVPR 2023] Detecting and Grounding Multi-Modal Media Manipulation [Paper](https://arxiv.org/abs/2304.02556) [Code](https://github.com/rshaojimmy/MultiModal-DeepFake)
@@ -76,18 +76,21 @@ This repository is maintained based on the survey paper:
 ## 2. Explainable Reasoning (可解释推理与问答)
 > Leveraging LLMs/LMMs to generate visual question answering (VQA), causal chains, and fine-grained natural language descriptions of forgery artifacts.
 
-<details open>
+<details >
   <summary>2026</summary>
+  
+* [ICLR 2026] VERITAS: GENERALIZABLE DEEPFAKE DETECTION VIA PATTERN-AWARE REASONING [Paper](https://arxiv.org/abs/2508.21048) [Code](https://github.com/EricTan7/Veritas)
+  > 提出包含模式引导微调（SFT）与模式感知强化学习（P-GRPO）的两阶段训练框架，强制多模态大语言模型进行“规划-反思”等结构化推理
 </details>
 
-<details open>
+<details >
   <summary>2025</summary>
 
 * [CVPR 2025] Rethinking Vision-Language Model in Face Forensics: Multi-modal Interpretable Forged Face Detector [Paper](https://arxiv.org/abs/2501.00000) [Code](https://github.com/CHELSEA234/M2F2_Det)
   > 引入通用伪造提示和层级伪造标记，利用LLaVA（lora微调）+CLIP+deepfake model的方式，提升伪造检测的准确性和解释能力.
 </details>
 
-<details open>
+<details >
   <summary>2024</summary>
 
 * [ECCV 2024] Common Sense Reasoning for Deepfake Detection [Paper](https://arxiv.org/abs/2407.01633) [Code](https://github.com/Reality-Defender/Research-DD-VQA.git)
@@ -109,11 +112,11 @@ This repository is maintained based on the survey paper:
 ## 3. Model-Specific Detection (特定生成模型检测)
 > Detection methods specifically targeting architectures like Diffusion Models (Stable Diffusion, Sora) or GANs.
 
-<details open>
+<details >
   <summary>2026</summary>
 </details>
 
-<details open>
+<details >
   <summary>2024</summary>
 
 * [ACM CCS 2024] ZeroFake: Zero-shot detection of fake images generated and edited by text-to-image generation models [Paper](https://arxiv.org/abs/2400.00000)
@@ -132,11 +135,11 @@ This repository is maintained based on the survey paper:
 ## 4. Datasets & Benchmarks (数据集与基准)
 > Including multi-modal forgery benchmarks, VQA datasets, and prompt-guided generation datasets, sorted by release year.
 
-<details open>
+<details >
   <summary>2026</summary>
 </details>
 
-<details open>
+<details >
   <summary>2025</summary>
 
 * **Forensics-Bench** (2025) [Dataset](https://github.com/Forensics-Bench)
@@ -153,7 +156,7 @@ This repository is maintained based on the survey paper:
 
 </details>
 
-<details open>
+<details >
   <summary>2024</summary>
 
 * **SID-Set** (2024)
@@ -170,7 +173,7 @@ This repository is maintained based on the survey paper:
 
 </details>
 
-<details open>
+<details >
   <summary>2023</summary>
 
 * **DGM4** (2023)
@@ -186,11 +189,11 @@ This repository is maintained based on the survey paper:
 ## 5. Emerging Trends (前沿探索与其它)
 > Hallucination mitigation, model capability evaluations, zero-shot generalization, and fairness in LMM forensics.
 
-<details open>
+<details >
   <summary>2026</summary>
 </details>
 
-<details open>
+<details >
   <summary>2025</summary>
 
 * [AAAI 2025] C2P-CLIP: Injecting Category Common Prompt in CLIP to Enhance Generalization in Deepfake Detection [Paper](https://arxiv.org/abs/2501.00000) [Code](https://github.com/chuangchuangtan/C2P-CLIP-Deepfake_Detection)
@@ -198,7 +201,7 @@ This repository is maintained based on the survey paper:
 
 </details>
 
-<details open>
+<details >
   <summary>2024</summary>
 
 * [CVPR 2024] LION: Empowering Multimodal Large Language Model with Dual-Level Visual Knowledge [Paper](https://arxiv.org/abs/2400.00000)
@@ -214,7 +217,7 @@ This repository is maintained based on the survey paper:
 ## 6. Surveys & Resources (综述与开源资源)
 > A collection of comprehensive survey papers and other high-quality repositories in the field.
 
-<details open>
+<details >
   <summary>2025</summary>
 
 * 📖 **[Sci Sin Inform 2025]** A Survey on Deepfake Detection in the Era of Large Models (大模型时代的伪造检测综述)
@@ -222,7 +225,7 @@ This repository is maintained based on the survey paper:
 
 </details>
 
-<details open>
+<details >
   <summary>2024</summary>
 
 * 📖 **[ArXiv 2024]** Deepfake media generation and detection in the generative ai era: A survey and outlook
@@ -230,7 +233,7 @@ This repository is maintained based on the survey paper:
 
 </details>
 
-<details open>
+<details >
   <summary>2023</summary>
 
 * 📖 **[IEEE Access 2023]** A survey on the detection and impacts of deepfakes in visual, audio, and textual formats
